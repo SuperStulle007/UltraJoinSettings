@@ -2,7 +2,7 @@
 branches:
 - master
 projects:
-  - [UltraStartKit]
+  - ["UltraStartKit"]
   UltraStartKit:
     path: ""
 ...

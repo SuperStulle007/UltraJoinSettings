@@ -1,6 +1,6 @@
-name: UltraStartKit
-main: SuperStulle007\UltraStartKit\Main
+name: UltraJoinSettings
+main: SuperStulle007\UltraJoinSettings\Main
 version: 1.0.0
 api: 3.0.0
 author: SuperStulle007
-description: Gives new Players free Items!
+description: Useful Settings for Joinmessages, Startitems and much more!

@@ -14,7 +14,8 @@ class Main extends PluginBase implements Listener {
 	
 	public function onEnable()
 	{
-		  $this->getLogger()->info("UltraBasics wurde aktiviert!");
+                  $this->saveResource("config.yml");
+		  $this->getLogger()->info("UltraJoinSettings wurde aktiviert!");
                   $this->getServer()->getPluginManager()->registerEvents($this ,$this);
         }
 
@@ -50,7 +51,7 @@ public function onJoin(PlayerJoinEvent $event) {
                   if($config->get("WelcomeUI") = "true"){
                       $this->openWelcomeUI($player);
                     if($config->get("Join-Title") != "false"){
-                       $player->addTitle($config->get("Join-Title");
+                       $player->addTitle($config->get("Join-Title"));
                 }
             }
       }

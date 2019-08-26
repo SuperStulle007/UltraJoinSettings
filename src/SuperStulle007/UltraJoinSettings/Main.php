@@ -49,7 +49,10 @@ public function onJoin(PlayerJoinEvent $event) {
                 $player->getInventory()->addItem(Item::get(297, 0, 16));
                   if($config->get("WelcomeUI") = "true"){
                       $this->openWelcomeUI($player);
+                    if($config->get("Join-Title") != "false"){
+                       $player->addTitle($config->get("Join-Title");
                 }
             }
+      }
         }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace SuperStulle007\UltraStartKit;
+namespace SuperStulle007\UltraJoinSettings;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
